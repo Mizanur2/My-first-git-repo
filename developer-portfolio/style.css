@@ -1,0 +1,67 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+.top-section{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.half-width img{
+    width: 80%;
+}
+.headline{
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(143, 135, 135);
+}
+.tagline{
+    font-size: 40px;
+}
+.top-text{
+    padding-left: 50px;
+
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(211, 243, 28), rgb(134, 197, 32));
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.dream-section{
+    display: flex;
+    margin-top: 80px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.last{
+    display: flex;
+}
+.last-boxes{
+    box-shadow: 2px 2px 10px black;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#baby{
+    border-left: 5px solid;
+    border-image: linear-gradient(purple , cyan);
+    border-image-slice: 1;
+}
